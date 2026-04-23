@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Application</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body class="grey lighten-4">
+
+<nav class="z-depth-0">
+    <div class="nav-wrapper container">
+        <a href="index.html">F00Diee<span>App</span></a>
+        <span class="right grey-text text-darken-1">
+            <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+        </span>
+    </div>
+</nav>
+
+<ul id="side-menu" class="sidenav side-menu">
+    <li><a class="subheader">F00Diee</a></li>
+    <li><a href="index.html" class="waves-effect">Home</a></li>
+    <li><a href="pages/about.html" class="waves-effect">About</a></li>
+    <li><div class="divider"></div></li>
+    <li>
+        <a href="pages/contact.html" class="waves-effect">
+            <i class="material-icons">mail_outline</i>Contact
+        </a>
+    </li>
+</ul>
+
+<div class="recipes container grey-text text-darken-1">
+
+    <div class="card-panel recipe white row">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=100" alt="burger">
+        <div class="recipe-details">
+            <div class="recipe-title">Burgers</div>
+            <div class="recipe-ingredients">Hamburger, White sauce, fries</div>
+            <div class="cost">Rs: 85</div>
+        </div>
+    </div>
+
+    <div class="card-panel recipe white row">
+        <img src="https://images.unsplash.com/photo-1546548970-71785318a17b?w=100" alt="pasta">
+        <div class="recipe-details">
+            <div class="recipe-title">Pasta</div>
+            <div class="recipe-ingredients">White & Red Sauce Pasta</div>
+            <div class="cost">Rs: 80</div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

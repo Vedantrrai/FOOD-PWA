@@ -1,0 +1,39 @@
+:root {
+    --primary: #66c0db;
+    --secondary: #3d8e9c;
+    --title: #0c0e0e;
+}
+
+nav {
+    background: var(--primary);
+    border-bottom: 5px solid var(--secondary);
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--title);
+}
+
+nav a span {
+    font-weight: bold;
+}
+
+.card-panel.recipe {
+    border-radius: 8px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+}
+
+.recipe img {
+    max-width: 60px;
+    border-radius: 50%;
+}
+
+.recipe-details {
+    margin-left: 10px;
+}
+
+.recipe-title {
+    font-weight: bold;
+}
